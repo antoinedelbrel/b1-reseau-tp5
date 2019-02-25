@@ -7,6 +7,7 @@ Les point vert a coter des VM signifie qu'elles sont allumées. Dans ce schéma 
 
 <img src="Configvm.png">
 
+
 Il n'y a pas grand chose de plus à ajouter.
 
 
