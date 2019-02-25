@@ -44,9 +44,10 @@ On fait :
 `show ip route`  
 Ne pas oublier de faire un write pour les deux router pour bien sauvegarder.  
  
-Si on suit bien les consignes du tp quand on fait un `ip route show` on obtient cela por le server1 :
+Si on suit bien les consignes du tp quand on fait un `ip route show` on obtient cela pour le server1 :
 <img src="server.png">
 
-
+On obtient cela pour les deux clients :
+<img src="client.png">
 
 
