@@ -13,9 +13,27 @@ Il n'y a pas grand chose de plus à ajouter.
 
 # II.Lancement et configuration du lab
 
-* definition des IPs statique :  
+### Checklist IP VMs
+* Définition des IPs statiques :  
 On définie les IPs statique sur chaque VM.
 
-* La connexion ssh est fonctionnelle sur toute les VM. Pour faire marcher les VM sur le powershell on fait un `ssh root@"ip de la vm"`
+* La connexion ssh est fonctionnelle sur toute les VM. Pour faire marcher les VM sur le powershell on fait un `ssh root@"ip de la vm"`.
 
+* Pour définir les noms de domaine on fait `echo "nom du domaine" | sudo tee /etc/hostname`.
+
+### Checklist IP Routeurs  
+
+* Definition des IPs statiques :   
+On définie les IPs statiques de router1 et router2 en faisant:   
+`show ip interface brief`  
+`conf t`  
+`ip address <IP> <MASK>`  
+`no shut`  
+`exit` (*2)  
+`show ip int br`
+
+* Définition du nom de domaine  
+Pour changer son nom de domaine c'est tout simple on fait `conf t` puis `hostname <HOSTNAME>`.
+
+* Checklist routes  
 
