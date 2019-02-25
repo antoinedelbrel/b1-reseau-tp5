@@ -5,7 +5,7 @@
 En faisant toutes les étapes du début on obtient cela sur GNS3. 
 Les point vert a coter des VM signifie qu'elles sont allumées. Dans ce schéma toutes les VM sont allumées prête à fonctionner.  
 
-<img src="Configvm.png">
+<img src="configvm.png">
 
 
 Il n'y a pas grand chose de plus à ajouter.
