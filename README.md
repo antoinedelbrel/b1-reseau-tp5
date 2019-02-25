@@ -43,8 +43,9 @@ On fait :
 `exit `  
 `show ip route`  
 Ne pas oublier de faire un write pour les deux router pour bien sauvegarder.  
-
-
+ 
+Si on suit bien les consignes du tp quand on fait un `ip route show` on obtient cela :
+<img src="server.png">
 
 
 
