@@ -35,5 +35,17 @@ On définie les IPs statiques de router1 et router2 en faisant:
 * Définition du nom de domaine  
 Pour changer son nom de domaine c'est tout simple on fait `conf t` puis `hostname <HOSTNAME>`.
 
-* Checklist routes  
+### Checklist routes   
+Pour router1 et router2 on leur ajoute net2 (pour router1) et net1 (pour router2) directement sur GNS3. 
+On fait :  
+`conf t`   
+`ip route <REMOTE_NETWORK_ADDRESS> <MASK> <GATEWAY_IP> `  
+`exit `  
+`show ip route`  
+Ne pas oublier de faire un write pour les deux router pour bien sauvegarder.  
+
+
+
+
+
 
