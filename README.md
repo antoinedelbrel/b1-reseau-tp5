@@ -51,3 +51,4 @@ On obtient cela pour les deux clients :
 <img src="client.png">
 
 
+Les deux clients ping bien le server et inversement.
